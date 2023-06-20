@@ -1,8 +1,9 @@
-form{
+form {
   margin: 32px;
   box-sizing: border-box;
 }
 
-input{
+input {
   margin: 8px;
+  margin-left: 0;
 }
