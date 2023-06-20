@@ -1,6 +1,7 @@
 form {
   margin: 32px;
   box-sizing: border-box;
+  padding: 0;
 }
 
 input {
