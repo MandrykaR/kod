@@ -17,3 +17,6 @@ input {
   margin-left: 0;
 }
 
+.languages input{
+  margin: 1px;
+}
