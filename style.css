@@ -19,6 +19,10 @@ input {
 
 .languages input{
   margin-top: 0;
-  /* margin-left: 4px;
-  margin-right: 4px; */
+  /* margin-left: 4px;*/
+}
+
+.languages{
+  margin-left: 4px; 
+
 }
