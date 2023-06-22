@@ -12,7 +12,7 @@ table,tr,td, th{
   border-collapse: collapse;
   border: 1px solid black;
 }
-td,th{
+td,th,tr{
   padding: 4px;
   text-align: right;
 }
