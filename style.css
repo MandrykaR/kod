@@ -2,47 +2,35 @@
   box-sizing: border-box;
 }
 
+body{
+  padding: 16px;
+}
+
 table{
-  width: 500px;
-  margin: 16px;
-  overflow:scroll;
+  text-align: center;
 }
 
-table,tr,td, th{
-  border-collapse: collapse;
-  border: 1px solid black;
-}
-td,th{
-  padding: 4px;
-  text-align: right;
+ table{
+  border: 1px solid #000;
 }
 
-tr{
-  height: 40px;
+td {
+  width: 50px;
+  height: 50px
 }
 
-tbody tr:nth-child(odd){
-  background-color: #f2f2f2;
+table tr:nth-child(even){
+  background-color: #000;
 }
 
-tbody tr:hover{
-  background-color: #aaa;
-  color: #fff;
-  cursor: pointer;
+table td:first-child{
+  background-color: #fff;
 }
 
-thead{
-  background-color: aqua;
+table td:last-child{
+  background-color: #fff;
 }
 
-tfoot{
-  font-weight: 700;
-}
-
-caption{
-  margin-bottom: 8px;
-}
-
-div{
-  overflow-x: auto;
+table td{
+  
 }
