@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>Forms</title>
+    <title>Простая таблица</title>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
@@ -14,98 +14,48 @@
   </head>
 
   <body>
-    <main class="page">
-      <form class="form" action="#">
-        <div class="html-block">
-          <input name="primaryLanguage" type="text" value="HTML" disabled />
-        </div>
-        <div>
-          <input name="agree" type="checkbox" />
-        </div>
-        <div>
-          <input name="like" type="checkbox" checked readonly />
-        </div>
-        <div>
-          <input name="favouriteColor" type="color" value="#ff7f50" />
-        </div>
-        <div>
-          <input name="birthDate" type="date" value="2021-01-02" />
-        </div>
-        <div>
-          <input
-            name="birthTime"
-            type="datetime-local"
-            value="2024-10-04T13:02"
-          />
-        </div>
-        <div>
-          <input
-            name="email"
-            type="email"
-            placeholder="example@domain.com"
-            required
-          />
-        </div>
-        <div>
-          <input name="avatar" type="file" />
-        </div>
-        <div>
-          <input name="startLearning" type="month" value="2020-01" />
-        </div>
-        <div>
-          <input name="favouriteNumber" type="number" value="17" />
-        </div>
-        <div class="textarea">
-          <textarea
-            name="story"
-            cols="30"
-            rows="5"
-            placeholder="A long time ago..."
-          ></textarea>
-        </div>
-        <div>
-          <input name="password" type="password" value="secret" />
-        </div>
-        <div class="languages">
-          <input name="language" type="radio" value="html" />HTML
-          <input name="language" type="radio" value="css" checked />CSS
-          <input name="language" type="radio" value="javascript" />JavaScript
-        </div>
-        <div>
-          <input name="learnigProgres" type="range" value="30" step="70" />
-        </div>
-        <div class="framework">
-          <select name="framework" id="">
-            <option value="react">React</option>
-            <option value="jquere" selected>jQuery</option>
-            <option value="bootstrap">Bootstrap</option>
-          </select>
-        </div>
-        <div>
-          <input
-            name="search"
-            type="search"
-            placeholder="Type first letters..."
-          />
-        </div>
-        <div>
-          <input name="lunchEnd" type="time" value="14:01" />
-        </div>
-        <div>
-          <input
-            name="website"
-            type="url"
-            placeholder="https://website.com"
-            required
-          />
-        </div>
-        <div>
-          <input name="birthWeek" type="week" value="2021-W51" />
-        </div>
-        <div>
-          <button>Save</button>
-        </div>
-      </form>
-    </main>
+    <table>
+      <caption>Shopping list</caption>
+      <thead>
+        <tr>
+          <th>Product</th>
+          <th>Anmount</th>
+          <th>Price</th>
+          <th>Subtotal</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <td>Milk</td>
+          <td>3</td>
+          <td>$2</td>
+          <td>$6</td>
+        </tr>
+        <tr>
+          <td>Bread</td>
+          <td>4</td>
+          <td>$1</td>
+          <td>$4</td>
+        </tr>
+        <tr>
+          <td>Meat</td>
+          <td>5</td>
+          <td>$10</td>
+          <td>$50</td>
+        </tr>
+      </tbody>
+
+      <tfoot>
+        <tr >
+          <td colspan="3">
+            Total
+          </td>
+          <td>
+            $60
+          </td>
+        </tr>
+      </tfoot>
+    </table>
   </body>
 </html>
