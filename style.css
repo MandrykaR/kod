@@ -2,43 +2,41 @@
    box-sizing: border-box;
 }
 
-.container {
-   margin: 32px;
-}
-
-.rect {
-   margin-bottom: 16px;
-   background-color: coral;
-   text-align: center;
-   opacity: 0.5;
+.square {
    width: 100px;
    height: 100px;
-   line-height: 100px;
+   background-color: coral;
+   position: absolute;
+   animation: move 4s 2 alternate;
+
 }
 
-.rect:hover {
-   width: 100%;
-   opacity: 1;
-   transition: width 2s, opacity 0.5s;
-}
+@keyframes move {
+   0% {
+      left: 0;
+   }
 
-.linear {
-   transition-timing-function: linear;
-}
+   25% {
+      left: 300px;
+      top: 0px;
+      background-color: cornflowerblue;
+   }
 
-.ease {
-   transition-timing-function: ease;
-}
+   50% {
+      left: 300px;
+      top: 300px;
+      background-color: aqua;
 
+   }
 
-.ease-in {
-   transition-timing-function: ease-in;
-}
+   75% {
+      left: 0;
+      top: 300px;
+      background-color: yellowgreen;
+   }
 
-.ease-out {
-   transition-timing-function: ease-out;
-}
-
-.ease-in-out {
-   transition-timing-function: ease-in-out;
+   100% {
+      left: 0px;
+      top: 0px;
+   }
 }
