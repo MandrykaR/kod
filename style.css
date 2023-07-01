@@ -36,3 +36,8 @@ button {
 .bird svg:hover {
    fill: green;
 }
+
+.fas{
+   vertical-align: middle;
+
+}
