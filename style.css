@@ -36,8 +36,3 @@ button {
 .bird svg:hover {
    fill: green;
 }
-
-.fas {
-   border-radius: 0;
-
-}
