@@ -37,6 +37,8 @@
       opacity: 0;
     }
 
+
+
     50% {
       opacity: 1;
     }
@@ -49,11 +51,11 @@
 
 @keyframes bor {
   from {
-    transform: rotate(-1deg);
+    transform: rotate(4deg);
   }
 
   to {
-    transform: rotate(-360deg);
+    transform: rotate(360deg);
   }
 }
 
