@@ -49,7 +49,7 @@
 
 @keyframes bor {
   0% {
-    transform: rotate(0);
+    transform: rotate(2deg);
   }
 
   100% {
