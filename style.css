@@ -14,7 +14,7 @@
 }
 
 .spinner-text{
-  
+  font-family: monospace;
   font-size: 16px;
   text-transform: uppercase;
   animation: blinking 2s linear infinite;
@@ -48,12 +48,11 @@
 
 
 @keyframes bor {
-  0% {
-    transform: rotate(-0deg);
+  from {
+    transform: rotate(-1deg);
   }
 
-
-  100% {
+  to {
     transform: rotate(-360deg);
   }
 }
