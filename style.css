@@ -51,7 +51,7 @@
 
 @keyframes bor {
   from {
-    transform: rotate(4deg);
+    transform: rotate(8deg);
   }
 
   to {
