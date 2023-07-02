@@ -45,7 +45,7 @@
 
 @keyframes bor {
   0% {
-    transform: rotate(0);
+    transform: rotate(4deg);
   }
 
   50% {
