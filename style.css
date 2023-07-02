@@ -26,7 +26,7 @@
   border-radius:50px ;
   border-top-color:black;
   animation: bor 2s linear infinite;
-  margin: 8px auto;
+  margin:0 auto 8px auto;
 }
 
 @keyframes blinking {
