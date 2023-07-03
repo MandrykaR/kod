@@ -2,11 +2,13 @@
   box-sizing: border-box;
 }
 
-
+body{
+  margin-left: 0;
+}
 
 img{
-  max-inline-size: 100%;
-  object-position: center left;
+  max-width: 100%;
+  object-position: left;
   height: 333px;
   object-fit: cover;
 }
