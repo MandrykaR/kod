@@ -8,7 +8,7 @@ a {
   text-decoration: inherit;
 }
 
-h1,h2{
+h1{
   margin: 0;
 }
 
@@ -32,6 +32,7 @@ body {
   text-align: center;
   background: linear-gradient(60deg, red, orange);
   color: #fff;
+  padding: 20px 0;
 }
 
 .main {
@@ -41,7 +42,7 @@ body {
 }
 
 /* NAV */
-header,nav,
+nav,
 section,
 aside {
   padding: 0.5em;
