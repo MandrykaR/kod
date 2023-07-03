@@ -5,11 +5,14 @@
 .container {
   display: flex;
   height: 100vh;
-  width: 100vw;
+  align-items: center;
+  justify-content: center;
 }
 
 .spinner {
-  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .spinner-text {
@@ -23,10 +26,10 @@
   width: 50px;
   height: 50px;
   border: 4px solid lightgray;
-  border-radius: 50px;
+  border-radius: 50%;
   border-top-color: black;
-  margin: 0 auto 8px auto;
-  animation: bor 2s linear infinite;
+  margin-bottom:8px;
+  animation: spin 2s linear infinite;
 }
 
 @keyframes blinking {
@@ -43,7 +46,7 @@
   }
 }
 
-@keyframes bor {
+@keyframes spin {
   0% {
     transform: rotate(0deg);
   }
