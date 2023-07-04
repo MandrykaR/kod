@@ -8,8 +8,9 @@ a {
   text-decoration: inherit;
 }
 
-h1 {
+h1, h2 {
   margin: 0;
+  padding: 0;
 }
 
 .nav-list {
@@ -75,7 +76,7 @@ aside {
   width: 60%;
 }
 
-.units-list li {
+.css-units {
   line-height: 1.75em;
 }
 
