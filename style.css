@@ -8,9 +8,7 @@ a {
    text-decoration: inherit;
 }
 
-h1 {
-   margin: 0;
-}
+
 
 .nav-list {
    list-style: none;
@@ -33,7 +31,7 @@ body {
    text-align: center;
    background: linear-gradient(60deg, red, orange);
    color: #fff;
-   padding: 20px 0;
+   padding: 25px 0;
 }
 
 .main {
