@@ -1,9 +1,14 @@
 * {
+<<<<<<< HEAD
   box-sizing: border-box;
+=======
+   box-sizing: border-box;
+>>>>>>> 7df21e4 (rR)
 }
 
 a {
 
+<<<<<<< HEAD
   color: inherit;
   text-decoration: inherit;
 }
@@ -16,10 +21,25 @@ h1{
   list-style: none;
   padding: 0;
   margin: 0;
+=======
+   color: inherit;
+   text-decoration: inherit;
+}
+
+h1 {
+   margin: 0;
+}
+
+.nav-list {
+   list-style: none;
+   padding: 0;
+   margin: 0;
+>>>>>>> 7df21e4 (rR)
 }
 
 html,
 body {
+<<<<<<< HEAD
   font-family: Verdana, Geneva, sans-serif;
   color: #555;
   font-size: 16px;
@@ -39,22 +59,54 @@ body {
   display: flex;
   min-height: 100%;
   flex: 1;
+=======
+   font-family: Verdana, Geneva, sans-serif;
+   color: #555;
+   font-size: 16px;
+
+   height: 100vh;
+}
+
+/* _____________________________ */
+
+.header {
+   text-align: center;
+   background: linear-gradient(60deg, red, orange);
+   color: #fff;
+   padding: 25px 0;
+}
+
+.main {
+   display: flex;
+   min-height: 100%;
+   flex: 1;
+>>>>>>> 7df21e4 (rR)
 }
 
 /* NAV */
 nav,
 section,
 aside {
+<<<<<<< HEAD
   padding: 0.5em;
 }
 
 .navigation {
   width: 20%;
   text-decoration: none;
+=======
+   padding: 0.5em;
+}
+
+.navigation {
+   width: 20%;
+   text-decoration: none;
+>>>>>>> 7df21e4 (rR)
 }
 
 
 .nav-list-item {
+<<<<<<< HEAD
   background-color: #808080;
   color: #fff;
   line-height: 2em;
@@ -96,3 +148,48 @@ footer {
   background-color: #e5e5e5;
   padding: 0.5em;
 }
+=======
+   background-color: #808080;
+   color: #fff;
+   line-height: 2em;
+   margin-bottom: 0.5em;
+   padding: 0 0.5em;
+
+   text-overflow: ellipsis;
+   white-space: nowrap;
+   overflow: hidden;
+}
+
+.section {
+   font-size: 1.25em;
+   width: 60%;
+}
+
+.units-list li {
+   line-height: 1.75em;
+}
+
+.css-units {
+   color: #8b0000;
+   background-color: #e5e5e5;
+   font-size: 1.125em;
+   font-weight: 700;
+}
+
+.section__header {
+   text-align: center;
+   font-size: 5vw;
+}
+
+
+
+aside {
+   width: 20%;
+}
+
+footer {
+   text-align: center;
+   background-color: #e5e5e5;
+   padding: 0.5em;
+}
+>>>>>>> 7df21e4 (rR)
