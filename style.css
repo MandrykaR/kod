@@ -8,7 +8,9 @@ a {
    text-decoration: inherit;
 }
 
-
+h1{
+   margin: 0;
+}
 
 .nav-list {
    list-style: none;
