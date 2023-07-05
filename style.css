@@ -87,6 +87,7 @@ aside {
 }
 
 li .css-units {
+   display: inline-block;
    color: #8b0000;
    background-color: #e5e5e5;
    font-size: 1.131em;
