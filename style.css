@@ -80,18 +80,16 @@ aside {
    width: 60%;
 }
 
-.units-list{
-   padding: 0;
-}
 
-.units-list li{
+
+.units-list li {
    line-height: 1.75em;
 }
 
 li .css-units {
    color: #8b0000;
    background-color: #e5e5e5;
-   font-size: 1.129em;
+   font-size: 1.29em;
    text-align: center;
    font-weight: 700;
 }
