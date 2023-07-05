@@ -82,7 +82,9 @@ aside {
 
 
 
-.units-list li {
+.units-list {
+   padding: 0;
+   margin: 0;
    line-height: 1.75em;
 }
 
