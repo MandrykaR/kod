@@ -7,30 +7,29 @@ a {
   text-decoration: inherit;
 }
 
-h1{
- margin: 0;
+h1 {
+  margin: 0;
 }
 
 
 .nav-list {
   list-style: none;
   padding: 0;
-  margin: 0;
 }
 
 html,
 body {
- font-family: Verdana, Geneva, sans-serif;
- color: #555;
- font-size: 16px;
- height: 100%; 
- margin: 0;
- padding: 0;
+  font-family: Verdana, Geneva, sans-serif;
+  color: #555;
+  font-size: 16px;
+  height: 100%;
+  margin: 0;
+  padding: 0;
 }
 
-body{
- display: flex;
- flex-direction: column;
+body {
+  display: flex;
+  flex-direction: column;
 }
 
 /* _____________________________ */
@@ -41,13 +40,13 @@ body{
   text-align: center;
   background: linear-gradient(60deg, red, orange);
   color: #fff;
-  padding: 21px 0;
+  padding: 21.5px 0;
 }
 
 
 .main {
- display: flex;
- flex: 1; 
+  display: flex;
+  flex: 1;
 }
 
 /* NAV */
@@ -83,14 +82,14 @@ aside {
 }
 
 .units-list li {
- line-height: 1.75em;
+  line-height: 1.75em;
 }
 
 .css-units {
- color: #8b0000;
- background-color: #e5e5e5;
- font-size: 1.125em;
- font-weight: 700;
+  color: #8b0000;
+  background-color: #e5e5e5;
+  font-size: 1.125em;
+  font-weight: 700;
 }
 
 .section__header {
