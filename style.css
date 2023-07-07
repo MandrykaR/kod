@@ -1,24 +1,34 @@
 * {
-  box-sizing: border-box;
+   box-sizing: border-box;
 }
 
 a {
-  color: inherit;
-  text-decoration: inherit;
+   color: inherit;
+   text-decoration: inherit;
 }
 
 h1 {
+<<<<<<< HEAD
   margin: 0;
+=======
+   margin: 0;
+>>>>>>> 6f5dfbf32b0e7b1dd2c0305c1835d36e5a5416a2
 }
 
 
 .nav-list {
+<<<<<<< HEAD
   list-style: none;
   padding: 0;
+=======
+   list-style: none;
+   padding: 0;
+>>>>>>> 6f5dfbf32b0e7b1dd2c0305c1835d36e5a5416a2
 }
 
 html,
 body {
+<<<<<<< HEAD
   font-family: Verdana, Geneva, sans-serif;
   color: #555;
   font-size: 16px;
@@ -30,6 +40,19 @@ body {
 body {
   display: flex;
   flex-direction: column;
+=======
+   font-family: Verdana, Geneva, sans-serif;
+   color: #555;
+   font-size: 16px;
+   height: 100%;
+   margin: 0;
+   padding: 0;
+}
+
+body {
+   display: flex;
+   flex-direction: column;
+>>>>>>> 6f5dfbf32b0e7b1dd2c0305c1835d36e5a5416a2
 }
 
 /* _____________________________ */
@@ -37,51 +60,64 @@ body {
 
 
 .header {
+<<<<<<< HEAD
   text-align: center;
   background: linear-gradient(60deg, red, orange);
   color: #fff;
   padding: 21.5px 0;
+=======
+   text-align: center;
+   background: linear-gradient(60deg, red, orange);
+   color: #fff;
+   padding: 21.5px 0;
+>>>>>>> 6f5dfbf32b0e7b1dd2c0305c1835d36e5a5416a2
 }
 
 
 .main {
+<<<<<<< HEAD
   display: flex;
   flex: 1;
+=======
+   display: flex;
+   flex: 1;
+>>>>>>> 6f5dfbf32b0e7b1dd2c0305c1835d36e5a5416a2
 }
 
 /* NAV */
 nav,
 section,
 aside {
-  padding: 0.5em;
+   padding: 0.5em;
 }
 
 .navigation {
-  width: 20%;
-  text-decoration: none;
+   width: 20%;
+   text-decoration: none;
 }
 
 
 .nav-list-item {
-  background-color: #808080;
-  color: #fff;
-  line-height: 2em;
-  margin-bottom: 0.5em;
-  padding: 0 0.5em;
+   background-color: #808080;
+   color: #fff;
+   line-height: 2em;
+   margin-bottom: 0.5em;
+   padding: 0 0.5em;
 
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  overflow: hidden;
+   text-overflow: ellipsis;
+   white-space: nowrap;
+   overflow: hidden;
 }
 
 
 /* section */
 .section {
-  font-size: 1.25em;
-  width: 60%;
+   font-size: 1.25em;
+   width: 60%;
 }
 
 .units-list li {
+<<<<<<< HEAD
   line-height: 1.75em;
 }
 
@@ -90,22 +126,32 @@ aside {
   background-color: #e5e5e5;
   font-size: 1.125em;
   font-weight: 700;
+=======
+   line-height: 1.75em;
+}
+
+.css-units {
+   color: #8b0000;
+   background-color: #e5e5e5;
+   font-size: 1.125em;
+   font-weight: 700;
+>>>>>>> 6f5dfbf32b0e7b1dd2c0305c1835d36e5a5416a2
 }
 
 .section__header {
-  text-align: center;
-  font-size: 5vw;
+   text-align: center;
+   font-size: 5vw;
 }
 
 
 aside {
-  width: 20%;
+   width: 20%;
 }
 
 footer {
-  text-align: center;
-  background-color: #e5e5e5;
-  padding: 0.5em;
+   text-align: center;
+   background-color: #e5e5e5;
+   padding: 0.5em;
 
-  flex-shrink: 0;
+   flex-shrink: 0;
 }
