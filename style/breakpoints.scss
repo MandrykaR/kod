@@ -8,7 +8,13 @@ $unit:8px;
 
 
 @mixin for-small-up {
-    @media screen and (min-width:502px) and (max-width:$sm) {
+    @media screen and (min-width:$sm){
+        @content
+    }
+}
+
+@mixin for-small-up {
+    @media (orientation: landscape){
         @content
     }
 }
