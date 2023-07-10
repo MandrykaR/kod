@@ -36,5 +36,15 @@
     background-color: #8a2be2;
   }
 }
+@media screen and (min-width: 899px) and (max-width: 1199px) {
+  .square {
+    background-color: #a61;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .square {
+    background-color: #c47;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */
