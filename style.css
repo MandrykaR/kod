@@ -9,7 +9,7 @@
   justify-content: center;
   flex-direction: column;
 }
-@media screen and (min-width: 560px) {
+@media screen and (min-width: 599px) {
   .container {
     flex-direction: row;
   }
@@ -17,17 +17,17 @@
 .square {
   width: 100px;
   height: 100px;
-  margin: 16px;
+  margin: 8px;
   background-color: #ff7f50;
 }
-@media screen and (min-width: 560px) {
+@media screen and (min-width: 599px) {
   .square {
     background-color: #ff7f50;
   }
 }
 @media screen and (min-width: 600px) and (max-width: 899px) {
   .square {
-    background-color: #5950ff;
+    background-color: #8a2be2;
   }
 }
 

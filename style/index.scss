@@ -31,7 +31,7 @@
 .square{
     width: 100px;
     height: 100px;
-    margin: $unit*2;
+    margin: $unit;
     background-color:#ff7f50;
      
     @include for-small-up{
@@ -39,7 +39,7 @@
     }
 
     @include for-midle-up{
-        background-color: #5950ff;
+        background-color: #8a2be2;
     }
 
 }
