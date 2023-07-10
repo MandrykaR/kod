@@ -9,13 +9,19 @@ body {
   justify-content: center;
 }
 
+@media screen and (min-width: 580px) {
+  .container {
+    display: flex;
+  }
+}
+
 .square {
   width: 100px;
   height: 100px;
   background-color: #ff7f50;
-  margin: 8px;
+  margin: 16px;
 }
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 580px) {
   .square {
     background-color: #8a2be2;
   }
