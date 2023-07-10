@@ -13,15 +13,12 @@
     justify-content: center;
     flex-direction: column;
 
-    @include for-small-up{
+    @include for-medium-up{
         flex-direction: row;
     }
 
-    
-    @include for-midle-up{
 
-    }
-        
+    
     
 }
 
@@ -38,8 +35,9 @@
         background-color: #ff7f50;
     }
 
-    @include for-midle-up{
+    @include for-medium-up{
         background-color: #8a2be2;
     }
+
 
 }
