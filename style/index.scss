@@ -1,36 +1,33 @@
-@import 'header.scss';
+@import 'brackpoint.scss';
 
 *{
     box-sizing: border-box;
 }
 
-html{
-    font-size: $base-font-size;
-    font-family: Verdana, Geneva, sans-serif;
-
+body {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
 }
 
-.nav-list{
-    height: $unit * 7;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    align-items: center;
-    color: $text-color-secondary;
-    font-weight: 700;
-    list-style: none;
-    cursor: pointer;
-
-    &__item{
-        background-color: $color-secondary;
-        padding: $unit;
-        margin-left: $unit;
-        border-radius: $border-radius;
-        &_selected{
-            background-color: $color-primary;
-        }
-        &:hover{
-            opacity: 0.7;
-        }
+.square{
+    width: 100px;
+    height: 100px;
+    background-color: #ff7f50;
+    margin: 8px;
+    
+    @include for-extra-small {
+        background-color:#8a2be2;
     }
+
+    @include for-medium-up {
+        background-color:#a61;
+    }
+
+    @include for-large-up {
+        background-color:#c47;
+    }
+
+    
 }
