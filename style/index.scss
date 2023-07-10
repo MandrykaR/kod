@@ -13,6 +13,10 @@
     justify-content: center;
     flex-direction: column;
 
+    @include for-small-up{
+        flex-direction: row;
+    }
+
     @include for-medium-up{
         flex-direction: row;
     }
