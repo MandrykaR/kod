@@ -2,39 +2,66 @@
   box-sizing: border-box;
 }
 
-body {
+.container {
   display: flex;
   height: 100vh;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
 }
 
-@media screen and (min-width: 580px) {
-  .container {
-    display: flex;
-  }
-}
+
 
 .square {
   width: 100px;
   height: 100px;
-  background-color: #ff7f50;
   margin: 16px;
+  background-color: #ff7f50;
 }
-@media screen and (min-width: 580px) {
-  .square {
-    background-color: #8a2be2;
+
+@media screen and (min-width:580px) {
+  .container{
+    flex-direction: column;
+  }
+  .square{
+    background-color: #ff7f50;
   }
 }
-@media screen and (min-width: 900px) {
-  .square {
+
+@media screen and (min-width:580px) {
+  .container{
+    flex-direction: row;
+  }
+
+  .square{
+    background-color: #ff7f50;
+  }
+}
+
+@media screen and (min-width:900px) {
+  .square{
+    background-color:#8a2be2;
+  }
+}
+
+
+@media screen and (min-width:1100px) {
+  .square{
     background-color: #a61;
   }
 }
-@media screen and (min-width: 1200px) {
-  .square {
+
+
+@media screen and (min-width:1200px) {
+  .square{
     background-color: #c47;
   }
 }
+
+
+
+
+
+
 
 /*# sourceMappingURL=style.css.map */

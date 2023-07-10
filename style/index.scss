@@ -1,38 +1,48 @@
-@import 'brackpoint.scss';
+@import 'breakpoints.scss';
 
 *{
     box-sizing: border-box;
 }
 
-body {
+
+
+.container {
     display: flex;
     height: 100vh;
     align-items: center;
     justify-content: center;
-}
-
-
-.container {
-    @include for-extra-small {
-        display: flex;
+    flex-direction: column;
+    @include for-small{
+        flex-direction: row;
     }
+    @include for-extra-small{
+        flex-direction: row;
+
+    }
+
 }
+
+
+
 
 .square{
     width: 100px;
     height: 100px;
-    background-color: #ff7f50;
-    margin: 16px;
+    margin: $unit*2;
+    background-color:#ff7f50;
     
-    @include for-extra-small {
+
+    
+    @include for-extra-small{
         background-color:#8a2be2;
     }
 
-    @include for-medium-up {
+
+    @include for-large-up {
         background-color:#a61;
     }
 
-    @include for-large-up {
+    @include for-big-up {
         background-color:#c47;
     }
 
