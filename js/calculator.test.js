@@ -14,6 +14,6 @@ it('should keep odd', () => {
 })
 
 it('should get sum of num', () => {
-    const result = getSum([8, 4])
-    expect(result).toEqual([12]);
+    const result = getSum(8, 4)
+    expect(result).toEqual(12);
 })
