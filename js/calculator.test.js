@@ -1,5 +1,4 @@
-import {
-    getSum,
+import getSum, {
     getSquaredArray,
     getOddNumbers
 } from "../calculator";
